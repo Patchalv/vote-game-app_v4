@@ -44,8 +44,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://vote-to-play.netlify.app/)
+<img src="./src/images/screenshot.png" alt="Screenshot" width="100%">
 
 When playing board games with friends we'd often ask the question "What game do you want to play?". It gave me the idea for this app that would allow us to take the same list of games and put them in order of games we wanted to play most to least. Once everyone had sorted their list then it would calculate which was the highest ranked game to play next. 
 
