@@ -62,13 +62,14 @@ const Results = () => {
 
   const handleClickBack = () => {
     dispatch(changeComponent("player3"))
+    setShowResults(false)
   }
  
     return (
       <div >
         <div className="content-container resultBox">
-          <h3>AND THE GAME WE'RE GOING TO PLAY IS.....:</h3>
-          <button className="button-dark results-button" variant="secondary" size="lg" onClick={calculateTotalScore}>Calculate</button>
+          <h3>AND THE GAME WE'RE GOING TO PLAY IS.....</h3>
+          { showResults === false ? (<button className="button-dark results-button" variant="secondary" size="lg" onClick={calculateTotalScore}>Calculate</button> ): null }
             { showResults ? (
             <div className="hidden-results">
             <ul>

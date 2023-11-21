@@ -57,9 +57,12 @@ body {
 /* GENERAL COMPONENT CONTAINER */
 
 .content-container {
-  margin: 30px;
+  margin: 10px;
   max-width: 500px;
+}
 
+.content-container p {
+  margin: 17px;
 }
 
 /* START COMPONENT */
@@ -146,6 +149,7 @@ li {
 .m-3 {
   border: none;
   box-shadow: 0 0 0 calc(1px / var(--scale-x, 1)) rgba(63, 63, 68, 0.05), 0 1px calc(3px / var(--scale-x, 1)) 0 rgba(34, 33, 81, 0.15);
+  text-align: center;
 }
 
 
@@ -163,18 +167,18 @@ li {
 
 .resultBox li {
   font-size: large; 
-
 }
 
 .resultBox li::marker {
   content: "";
 }
 .resultBox li:first-child {
-  font-size: 30px;
-}
-
-.resultBox li:first-child::after {
-  content: "  ⭐";
+  font-size: 25px;
+  border: 2px solid var(--dark);
+  border-radius: 8px;
+  padding: 10px 10px;
+  background-color: var(--dark);
+  color: white;
 }
 
 .result-item {

@@ -68,6 +68,7 @@ const Player3 = () => {
     return (
     <div>
         <div className="content-container">
+        <p>Reorder the games the game you want to play most to least:</p>
         <DndContext 
             collisionDetection={closestCenter} 
             onDragEnd={onDragEnd}

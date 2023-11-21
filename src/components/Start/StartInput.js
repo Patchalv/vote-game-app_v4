@@ -28,6 +28,7 @@ const StartInput = () => {
   
     return (
       <div className="add-game">
+        <Form.Label className="player-num-label">Add your list of games:</Form.Label>
         <InputGroup>
             <Form.Control
               className="add-game-input"
