@@ -20,7 +20,7 @@ const Player1 = () => {
     );
 
     const dispatch = useDispatch();
-    const initialGames = useSelector((state) => state.games);
+    const initialGames = useSelector((state) => state.games.start);
     const [ games, setGames ] = useState(initialGames);
     
 

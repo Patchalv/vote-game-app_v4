@@ -8,7 +8,7 @@ import PrevNextButtons from '../PrevNextButtons/PrevNextButtons';
 
 function Start() {
   const dispatch = useDispatch();
-  const games = useSelector((state) => state.games);
+  const games = useSelector((state) => state.games.start);
 
 
   const handleClickNext = () => {

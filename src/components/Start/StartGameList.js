@@ -3,7 +3,7 @@ import { deleteGame } from "../../features/games/gamesSlice";
 import { Card, Button } from "react-bootstrap";
 
 const StartGameList = () => {
-    const games = useSelector((state) => state.games);
+    const games = useSelector((state) => state.games.start);
     const dispatch = useDispatch();
     function deleteSelectedGame(id) {
         dispatch(deleteGame(id));
@@ -20,7 +20,7 @@ const StartGameList = () => {
                     <Button
                         className="delete-btn"
                         variant="link"
-                        onClick={deleteSelectedGame(game.id)}
+                        onClick={() => deleteSelectedGame(game.id)}
                     >
                         x
                     </Button>
