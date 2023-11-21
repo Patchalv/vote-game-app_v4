@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { DndContext, closestCenter } from '@dnd-kit/core';
+import { DndContext, closestCenter, KeyboardSensor, MouseSensor, TouchSensor, useSensor, useSensors } from '@dnd-kit/core';
 import { arrayMove, SortableContext, verticalListSortingStrategy } from "@dnd-kit/sortable";
+import { restrictToVerticalAxis } from '@dnd-kit/modifiers';
 import { useDispatch, useSelector } from 'react-redux';
 import { changePlayer1Scores } from '../../features/playerGames/playerGamesSlice';
 import DraggableItem from '../DraggableItem/DraggableItem';
@@ -8,6 +9,16 @@ import PrevNextButtons from '../PrevNextButtons/PrevNextButtons';
 import { changeComponent } from '../../features/componentToShow/componentToShowSlice';
 
 const Player1 = () => {
+    const mouseSensor = useSensor(MouseSensor);
+    const touchSensor = useSensor(TouchSensor);
+    const keyboardSensor = useSensor(KeyboardSensor);
+
+    const sensors = useSensors(
+        mouseSensor,
+        touchSensor,
+        keyboardSensor
+    );
+
     const dispatch = useDispatch();
     const initialGames = useSelector((state) => state.games);
     const [ games, setGames ] = useState(initialGames);
@@ -50,7 +61,13 @@ const Player1 = () => {
     <div>
         <div className="content-container">
         
-        <DndContext collisionDetection={closestCenter} onDragEnd={onDragEnd}>
+        <DndContext 
+            collisionDetection={closestCenter} 
+            onDragEnd={onDragEnd}
+            sensors={sensors}
+            modifiers={[restrictToVerticalAxis]}
+        >
+
           <SortableContext items={games} strategy={verticalListSortingStrategy}>
             {games.map((game) => (
               <DraggableItem key={game.id} game={game} />
