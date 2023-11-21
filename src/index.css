@@ -158,10 +158,12 @@ li {
 .resultBox ul {
   padding: 0; 
   margin: 0;
+  list-style-type: none;
 }
 
 .resultBox li {
-  font-size: large;  
+  font-size: large; 
+
 }
 
 .resultBox li::marker {
