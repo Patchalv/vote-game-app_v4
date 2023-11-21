@@ -180,7 +180,7 @@ A big shout out to [Codecademy](https://www.codecademy.com/) who I'm currently d
 [issues-shield]: https://img.shields.io/github/issues/Patchalv/vote-game-app_v4.svg?style=for-the-badge
 [issues-url]: https://github.com/Patchalv/vote-game-app_v4/issues
 [license-shield]: https://img.shields.io/github/license/Patchalv/vote-game-app_v4.svg?style=for-the-badge
-[license-url]: https://github.com/Patchalv/vote-game-app_v4/blob/master/LICENSE.txt
+[license-url]: https://github.com/Patchalv/vote-game-app_v4/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/patrickalvarezeades/
 [product-screenshot]: ./src/images/Screenshot.png
