@@ -171,6 +171,10 @@ li {
   font-size: 30px;
 }
 
+.resultBox li:first-child::after {
+  content: "  ⭐";
+}
+
 .result-item {
   font-weight: 700;
   list-style: none;
