@@ -171,18 +171,18 @@ A big shout out to [Codecademy](https://www.codecademy.com/) who I'm currently d
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/Patchalv/vote-game-app_v4.svg?style=for-the-badge
+[contributors-url]: https://github.com/Patchalv/vote-game-app_v4/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Patchalv/vote-game-app_v4.svg?style=for-the-badge
+[forks-url]: https://github.com/Patchalv/vote-game-app_v4/network/members
+[stars-shield]: https://img.shields.io/github/stars/Patchalv/vote-game-app_v4.svg?style=for-the-badge
+[stars-url]: https://github.com/Patchalv/vote-game-app_v4/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Patchalv/vote-game-app_v4.svg?style=for-the-badge
+[issues-url]: https://github.com/Patchalv/vote-game-app_v4/issues
+[license-shield]: https://img.shields.io/github/license/Patchalv/vote-game-app_v4.svg?style=for-the-badge
+[license-url]: https://github.com/Patchalv/vote-game-app_v4/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://www.linkedin.com/in/patrickalvarezeades/
 [product-screenshot]: ./src/images/Screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
