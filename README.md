@@ -44,7 +44,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<img src="./src/images/screenshot.png" alt="Screenshot" width="100%">
+[![Product Name Screen Shot][product-screenshot]]()
 
 When playing board games with friends we'd often ask the question "What game do you want to play?". It gave me the idea for this app that would allow us to take the same list of games and put them in order of games we wanted to play most to least. Once everyone had sorted their list then it would calculate which was the highest ranked game to play next. 
 
@@ -178,7 +178,7 @@ A big shout out to [Codecademy](https://www.codecademy.com/) who I'm currently d
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
-[Redux.js]: (https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
+[Redux.js]: https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white
 [Redux-url]: https://redux.js.org/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://react-bootstrap.netlify.app/
