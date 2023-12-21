@@ -4,7 +4,6 @@ import playerNumberReducer from '../../features/playerNumber/playerNumberSlice';
 import componentToShowReducer from "../../features/componentToShow/componentToShowSlice";
 import playerGamesReducer from '../../features/playerGames/playerGamesSlice';
 
-
 const store = configureStore({
   reducer: {
     games: gamesReducer,

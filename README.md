@@ -113,7 +113,7 @@ To get a local copy up and running follow these simple example steps.
 
 - [ ] Write unit tests for components
 - [ ] Write end-to-end tests for application
-- [ ] Get 90+ scores on Lighthouse
+- [X] Get 90+ scores on Lighthouse
 - [ ] Make application a progressive web app
 
 See the [open issues](https://github.com/Patchalv/vote-game-app_v4/issues) for a full list of proposed features (and known issues).

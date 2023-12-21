@@ -26,31 +26,3 @@ const App = () => {
 }
 
 export default App;
-
-/*[
-            {
-                id: 1,
-                title: "7 Wonders",
-                points: 5,
-            },
-            {
-                id: 2,
-                title: "Settlers of Catan",
-                points: 4,
-            },
-            {
-                id: 3,
-                title: "Agricola",
-                points: 3,
-            },
-            {
-                id: 4,
-                title: "Azul",
-                points: 2,
-            },
-            {
-                id: 5,
-                title: "Dice Game",
-                points: 1,
-            }
-        ]*/

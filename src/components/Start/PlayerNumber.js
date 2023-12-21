@@ -16,23 +16,6 @@ const PlayerNumber = () => {
   
     return (
       <div className="add-game">
-        {/*<label 
-            htmlFor="players-select"
-        > 
-        Number of Players:
-        </label>
-        <select 
-            name="players" 
-            id="player-select" 
-            ref={selectRef}
-            onChange={selectNumberOfPlayers}
-            value={playerNumber}
-            >
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-          </select>*/}
           <Form.Group controlId="PlayerNum">
             <Form.Label className="player-num-label">Select the number of players:</Form.Label>
             <Form.Select
