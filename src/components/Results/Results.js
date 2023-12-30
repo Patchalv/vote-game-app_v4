@@ -61,8 +61,18 @@ const Results = () => {
   };
 
   const handleClickBack = () => {
-    dispatch(changeComponent("player3"))
-    setShowResults(false)
+    if (PlayerNumber < 3) {
+      dispatch(changeComponent("player2"))
+      setShowResults(false)
+    } else if (PlayerNumber < 4) {
+      dispatch(changeComponent("player3"))
+      setShowResults(false) 
+    } else {
+      dispatch(changeComponent("player4"))
+      setShowResults(false)
+    }
+    //dispatch(changeComponent("player3"))
+    //setShowResults(false)
   }
  
     return (

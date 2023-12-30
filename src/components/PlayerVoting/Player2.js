@@ -49,21 +49,21 @@ const Player2 = () => {
     const handleClickNext = () => {
       let updateddata = [];
       let arrayLength = games.length;
-  
+
       games.map((item, index) => {
         updateddata.push({
           id: item.id, title: item.title, points: arrayLength - index,
         });
         return updateddata
-      });
+      })
 
-      dispatch(changePlayer2Scores(updateddata))
-
-      if (PlayerNumber > 2) {
-        dispatch(changeComponent("player3"))
-      } else {
+      if (PlayerNumber < 3) {
         dispatch(changeComponent("results"))
-      }     
+        dispatch(changePlayer2Scores(updateddata))
+      } else {
+        dispatch(changeComponent("player3"))
+        dispatch(changePlayer2Scores(updateddata))
+      };
     }  
 
 

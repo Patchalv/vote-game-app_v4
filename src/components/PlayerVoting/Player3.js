@@ -57,11 +57,12 @@ const Player3 = () => {
 
       dispatch(changePlayer3Scores(updateddata))
 
-      if (PlayerNumber > 3) {
-        dispatch(changeComponent("player4"))
-      } else {
+      if (PlayerNumber < 4) {
         dispatch(changeComponent("results"))
-      }     
+      } 
+      else {
+        dispatch(changeComponent("player4"))
+      }    
     }  
 
 
